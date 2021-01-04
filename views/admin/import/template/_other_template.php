@@ -187,7 +187,7 @@
 									<div class="input">
 										<select name="page_template" id="page_template">
 											<option value='default'><?php _e('Default', 'wp_all_import_plugin') ?></option>
-											<?php page_template_dropdown($post['page_template']); ?>
+											<?php page_template_dropdown($post['page_template'], $post_type); ?>
 										</select>
 									</div>
 								</div>
